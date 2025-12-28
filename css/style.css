@@ -150,6 +150,16 @@ a:focus {
 
 .navbar-brand {
   font-family: 'Dancing Script', cursive;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
 }
 
 .navbar-brand span {
